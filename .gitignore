@@ -1,0 +1,42 @@
+# ===== 密钥 & 环境变量 =====
+.env
+.env.*
+*.env
+
+# ===== Python 缓存 =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+env/
+ENV/
+
+# ===== 向量数据库（本地生成，体积大） =====
+chroma_db/
+
+# ===== 对话历史（本地数据，不共享） =====
+chat_history/
+
+# ===== 知识库原始文件（含企业内部资料，不公开） =====
+data/
+
+# ===== MD5 记录（本地生成） =====
+md5.text
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.suo
+*.user
+
+# ===== macOS =====
+.DS_Store
+
+# ===== 日志 =====
+*.log
+logs/

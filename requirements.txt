@@ -1,0 +1,7 @@
+streamlit
+langchain-chroma
+langchain-community
+langchain-core
+langchain-text-splitters
+dashscope
+python-dotenv
